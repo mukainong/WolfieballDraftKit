@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    This XML file allows us to easily customize the look and language used
+    in our program's user interface. Note that this is for customizing settings
+    for the Course Schedule Builder interface, NOT the Web page that we're building. 
+-->
+<properties>
+    <property_list>    
+        <property name="PROP_APP_TITLE"   value="Wolfieball Draft Kit"></property>  
+        
+        <!-- PROGRAM ICON FILES -->
+        <property name="NEW_COURSE_ICON"    value="New.png"></property>
+        <property name="LOAD_COURSE_ICON"   value="Load.png"></property>
+        <property name="SAVE_COURSE_ICON"   value="Save.png"></property>
+        <property name="VIEW_SCHEDULE_ICON" value="View.png"></property>
+        <property name="EXPORT_PAGE_ICON"   value="Export.png"></property>
+        <property name="TEAM_ICON"   value="Team.png"></property>
+        <property name="PLAYER_ICON"   value="Player.png"></property>
+        <property name="STANDING_ICON"   value="Standing.png"></property>
+        <property name="DRAFT_ICON"   value="Draft.png"></property>
+        <property name="MLB_ICON"   value="MLB.png"></property>
+        <property name="DELETE_ICON"        value="Delete.png"></property>
+        <property name="EXIT_ICON"          value="Exit.png"></property>        
+        <property name="ADD_ICON"           value="Add.png"></property>
+        <property name="MINUS_ICON"         value="Minus.png"></property>
+        <property name="EDIT_ICON"         value="Edit.png"></property>
+        <property name="MOVE_UP_ICON"       value="MoveUp.png"></property>
+        <property name="MOVE_DOWN_ICON"     value="MoveDown.png"></property>
+        <property name="SELECT_PLAYER_ICON"     value="SelectPlayer.png"></property>
+        <property name="START_AUTO_DRAFT_ICON"     value="StartAutoDraft.png"></property>
+        <property name="PAUSE_AUTO_DRAFT_ICON"     value="PauseAutoDraft.png"></property>
+        
+        <!-- TOOLTIPS FOR BUTTONS -->
+        <property name="NEW_COURSE_TOOLTIP"         value="Create a New Draft"></property>
+        <property name="LOAD_COURSE_TOOLTIP"        value="Load and Existing Draft"></property>
+        <property name="SAVE_COURSE_TOOLTIP"        value="Save this Draft"></property>
+        <property name="VIEW_SCHEDULE_TOOLTIP"      value="View the Schedule Page"></property>
+        <property name="EXPORT_PAGE_TOOLTIP"        value="Export the Schedule Page"></property>
+        <property name="TEAM_TOOLTIP"         value="Team Screen"></property>
+        <property name="PLAYER_TOOLTIP"         value="Player Screen"></property>
+        <property name="DRAFT_TOOLTIP"         value="Draft Screen"></property>
+        <property name="STANDING_TOOLTIP"         value="Standing Screen"></property>
+        <property name="MLB_TOOLTIP"         value="MLB Screen"></property>
+        <property name="DELETE_TOOLTIP"             value="Delete this Course"></property>
+        <property name="EXIT_TOOLTIP"               value="Exit the Application"></property>
+        <property name="ADD_ITEM_TOOLTIP"           value="Add Schedule Item"></property>
+        <property name="REMOVE_ITEM_TOOLTIP"        value="Remove Schedule Item"></property>
+        <property name="EDIT_ITEM_TOOLTIP"        value="Edit Schedule Item"></property>
+        <property name="SELECT_PLAYER_TOOLTIP"        value="Select a player"></property>
+        <property name="START_AUTO_DRAFT_TOOLTIP"        value="Start auto draft"></property>
+        <property name="PAUSE_AUTO_DRAFT_TOOLTIP"        value="Pause auto draft"></property>
+        <property name="ADD_LECTURE_TOOLTIP"        value="Add Lecture"></property>
+        <property name="REMOVE_LECTURE_TOOLTIP"     value="Remove Lecture"></property>
+        <property name="MOVE_UP_LECTURE_TOOLTIP"    value="Move Up Lecture"></property>
+        <property name="MOVE_DOWN_LECTURE_TOOLTIP"  value="Move Down Lecture"></property>
+        <property name="ADD_HW_TOOLTIP"             value="Add Assignment"></property>
+        <property name="REMOVE_HW_TOOLTIP"          value="Remove Assignment"></property>
+        
+        <!-- GUI LABELS -->
+        <property name="COURSE_HEADING_LABEL"           value="Course Site Details"></property>
+        <property name="COURSE_INFO_LABEL"              value="Course Information"></property>
+        <property name="COURSE_SUBJECT_LABEL"           value="Subject:"></property>
+        <property name="COURSE_NUMBER_LABEL"            value="Number:"></property>
+        <property name="COURSE_SEMESTER_LABEL"          value="Semester:"></property>
+        <property name="COURSE_YEAR_LABEL"              value="Year:"></property>
+        <property name="COURSE_TITLE_LABEL"             value="Title:"></property>
+        <property name="INSTRUCTOR_NAME_LABEL"          value="Instrctor Name:"></property>
+        <property name="INSTRUCTOR_URL_LABEL"           value="Instructor Homepage:"></property>
+        <property name="PAGES_SELECTION_HEADING_LABEL"  value="Site Pages"></property>
+        <property name="SCHEDULE_HEADING_LABEL"         value="Course Schedule"></property>
+        <property name="DATE_BOUNDARIES_LABEL"          value="Semester Dates"></property>
+        <property name="STARTING_MONDAY_LABEL"          value="Starting Monday:"></property>
+        <property name="ENDING_FRIDAY_LABEL"            value="Ending Friday:"></property>
+        <property name="PLAYERS_SCREEN_HEADING_LABEL"   value="Available Players"></property>
+        <property name="TEAMS_SCREEN_HEADING_LABEL"   value="Fantasy Teams"></property>
+        <property name="STANDINGS_SCREEN_HEADING_LABEL"   value="Fantasy Standings"></property>
+        <property name="DRAFT_SCREEN_HEADING_LABEL"   value="Draft Summary"></property>
+        <property name="MLB_SCREEN_HEADING_LABEL"   value="MLB Teams"></property>
+        <property name="SCHEDULE_ITEMS_HEADING_LABEL"   value="Schedule Items"></property>
+        <property name="LECTURES_HEADING_LABEL"         value="Lectures"></property>
+        <property name="SEARCH_LABEL"              value="Search:"></property>
+        <property name="POSITION_ALL_LABEL"              value="All"></property>
+        <property name="POSITION_C_LABEL"              value="C"></property>
+        <property name="POSITION_1B_LABEL"              value="1B"></property>
+        <property name="POSITION_CI_LABEL"              value="CI"></property>
+        <property name="POSITION_3B_LABEL"              value="3B"></property>
+        <property name="POSITION_2B_LABEL"              value="2B"></property>
+        <property name="POSITION_MI_LABEL"              value="MI"></property>
+        <property name="POSITION_SS_LABEL"              value="SS"></property>
+        <property name="POSITION_OF_LABEL"              value="OF"></property>
+        <property name="POSITION_U_LABEL"              value="U"></property>
+        <property name="POSITION_P_LABEL"              value="P"></property>
+        <property name="DRAFT_NAME_LABEL"              value="Draft Name:"></property>
+        <property name="SELECT_FANTASY_TEAM_LABEL"              value="Select Fantasy Team:"></property>
+        <property name="STARTING_LINEUP_LABEL"              value="Starting Lineup"></property>
+        <property name="TAXI_SQUAD_LABEL"              value="Taxi Squad"></property>
+        
+        <!-- ERROR MESSAGES -->
+        <property name="START_DATE_AFTER_END_DATE_ERROR_MESSAGE"    value="The Starting Monday cannot be chronologically after the Ending Friday"></property>
+        <property name="START_DATE_NOT_A_MONDAY_ERROR_MESSAGE"      value="The Start Date must be a Monday"></property>
+        <property name="END_DATE_NOT_A_FRIDAY_ERROR_MESSAGE"        value="The End Date must be a Friday"></property>
+        <property name="ILLEGAL_DATE_MESSAGE"                       value="Illegal Date Selection"></property>
+        <property name="CLOSE_BUTTON_TEXT"                          value="Close"></property>
+
+        <!-- VERIFICATION MESSAGES -->
+        <property name="NEW_COURSE_CREATED_MESSAGE"     value="New Course Created but not yet Saved"></property>
+        <property name="COURSE_LOADED_MESSAGE"          value="The Course has been Loaded"></property>
+        <property name="COURSE_SAVED_MESSAGE"           value="The Course has been Saved"></property>
+        <property name="SITE_EXPORTED_MESSAGE"          value="The Course Site has been Exported"></property>
+        <property name="SAVE_UNSAVED_WORK_MESSAGE"      value="Do you want to save your unsaved work first?"></property>
+        <property name="REMOVE_ITEM_MESSAGE"            value="Are you sure you wish to remove the item?"></property>
+    </property_list>
+    <property_options_list>
+    </property_options_list>
+</properties>
